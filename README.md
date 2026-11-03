@@ -4,7 +4,13 @@ Este repositório reúne a parte do Tech Challenge que desenvolvi usando o Googl
 
 Optei por uma estrutura relativamente simples: os dados ficam nas camadas Bronze, Silver e Gold, e as verificações são registradas à parte. Assim, consigo explicar de onde os números vieram e repetir as consultas principais sem depender de uma infraestrutura grande.
 
-> **Situação da entrega (03/11/2026):** os datasets já foram criados e utilizados no BigQuery. No BigQuery identifiquei 12 tabelas Gold; neste repositório consegui reunir os scripts SQL das sete tabelas que criei na etapa mais recente e um script Silver recuperado. As outras cinco tabelas analíticas foram criadas anteriormente, mas seus scripts não foram recuperados neste pacote. Os códigos completos de ingestão, simulação de eventos e monitoramento ainda não estão reunidos aqui; por isso, o repositório **não reproduz toda a pipeline a partir de um ambiente vazio**. Essa diferença entre execução no GCP e código disponível no GitHub é uma limitação da entrega, e não uma etapa omitida propositalmente.
+> Situação da entrega (03/11/2026): O projeto foi implementado no Google Cloud, utilizando as camadas Bronze, Silver, Gold e Monitoring. Ao todo, foram identificadas 12 tabelas na Gold.
+
+Também consegui recuperar os scripts SQL utilizados em diferentes etapas do desenvolvimento, incluindo a carga inicial dos dados, transformações, indicadores, verificações de qualidade, streaming e monitoramento.
+
+Esses códigos foram organizados na pasta sql, e o histórico das execuções recuperadas está documentado em docs/indice_jobs_recuperados.csv.
+
+Ainda existem algumas limitações: o código original responsável pela geração dos eventos simulados não foi recuperado, algumas tabelas são substituídas durante a execução e a pipeline completa ainda não está automatizada para reprodução do zero. Essas questões estão detalhadas na documentação técnica.
 
 ## 1. Dados e objetivo
 
