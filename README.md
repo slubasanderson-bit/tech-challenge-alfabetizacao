@@ -1,6 +1,7 @@
 # Alfabetização no Brasil — Tech Challenge de Engenharia de Dados
 
 Link do repositório no GitHub: https://github.com/slubasanderson-bit/tech-challenge-alfabetizacao
+
 Link do vídeo de apresentação: https://drive.google.com/file/d/1WYbIam_rOKye83_kjI6RDXYGot_-zwes/view
 
 Este repositório reúne a parte do Tech Challenge que desenvolvi usando o Google Cloud, principalmente o BigQuery. O objetivo foi organizar dados públicos sobre alfabetização, tratar as informações e produzir tabelas que permitam acompanhar resultados por município, estado e Brasil, inclusive em comparação com as metas educacionais.
